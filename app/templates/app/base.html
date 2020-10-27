@@ -20,6 +20,9 @@
                      <li class="nav-item">
                         <a href="{% url 'profile' %}" class="nav-link">プロフィール</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="{% url 'accounts_logout' %}" class="nav-link">ログアウト</a>
+                    </li>
                 {% else %}
                     <li class="nav-item">
                         <a href="{% url 'accounts_login' %}" class="nav-link">ログイン</a>
