@@ -25,6 +25,9 @@
                     </li>
                 {% else %}
                     <li class="nav-item">
+                        <a href="{% url 'accounts_signup' %}" class="nav-link">サインアップ</a>
+                    </li>
+                    <li class="nav-item">
                         <a href="{% url 'accounts_login' %}" class="nav-link">ログイン</a>
                     </li>
                 {% endif %}
